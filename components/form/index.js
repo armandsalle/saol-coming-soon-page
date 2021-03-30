@@ -3,10 +3,27 @@ import { useState } from "react"
 const Form = () => {
   const [email, setEmail] = useState("")
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault()
     console.log(email)
-    setEmail("")
+
+    const response = await fetch("https://hooks.zapier.com/hooks/catch/5795378/oj6ekx2", {
+      method: "POST",
+      body: JSON.stringify({
+        contact: {
+          email: email,
+        },
+      }),
+    })
+    const data = await response.json()
+
+    console.log(data)
+
+    if (data.status === "success") {
+      setEmail("")
+    } else {
+      setEmail("Something went wrong.")
+    }
   }
 
   return (
