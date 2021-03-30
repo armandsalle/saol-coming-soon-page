@@ -19,7 +19,7 @@ const Footer = ({ currentWeather, currentWeatherDescription, currentTemp }) => {
           <a href="mailto:info@studiosaol.com" target="_blank">
             info@studiosaol.com
           </a>
-          <a href="https://twitter.com/studiosaol" target="_blank">
+          <a href="https://www.instagram.com/studiosaol/" target="_blank">
             @studiosaol
           </a>
         </div>

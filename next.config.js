@@ -7,4 +7,7 @@ module.exports = {
   sassOptions: {
     includePaths: [path.join(__dirname, "styles"), path.join(__dirname, "public")],
   },
+  env: {
+    ZAPIER_HOOK: process.env.ZAPIER_HOOK,
+  },
 }

@@ -13,7 +13,7 @@ const SEO = () => {
       <meta name="copyright" content="Saol" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="" />
+      <meta property="og:url" content="http://studiosaol.com/" />
       <meta property="og:title" content="Saol" />
       <meta
         property="og:description"
@@ -22,7 +22,7 @@ const SEO = () => {
       <meta property="og:image" content="" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="" />
+      <meta property="twitter:url" content="http://studiosaol.com/" />
       <meta property="twitter:title" content="Saol" />
       <meta
         property="twitter:description"

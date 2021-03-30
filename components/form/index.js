@@ -2,11 +2,12 @@ import { useState } from "react"
 
 const Form = () => {
   const [email, setEmail] = useState("")
+  const [success, setSucces] = useState(false)
 
   const handleSubmit = async (e) => {
     e.preventDefault()
 
-    const response = await fetch("https://hooks.zapier.com/hooks/catch/5795378/oj6ekx2", {
+    const response = await fetch(process.env.ZAPIER_HOOK, {
       method: "POST",
       body: JSON.stringify({
         contact: {
@@ -14,12 +15,15 @@ const Form = () => {
         },
       }),
     })
+
     const data = await response.json()
 
     if (data.status === "success") {
-      setEmail("")
+      setEmail("Go raibh maith agat")
+      setSucces(true)
     } else {
-      setEmail("Something went wrong.")
+      setEmail("Something went wrong, try again")
+      setSucces(false)
     }
   }
 
@@ -32,8 +36,10 @@ const Form = () => {
         placeholder="Email me at launch"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
+        disabled={success}
       />
-      <button type="submit">
+
+      <button type="submit" className={`submit ${success && "go"}`}>
         <svg xmlns="http://www.w3.org/2000/svg">
           <path
             d="M10.87.724l-.43.473 6.713 6.67H.5v.6h16.653L10.44 15.14l.43.473 7.444-7.444z"
