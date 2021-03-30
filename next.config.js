@@ -2,7 +2,7 @@ const path = require("path")
 
 module.exports = {
   future: {
-    webpack5: true,
+    webpack5: false,
   },
   sassOptions: {
     includePaths: [path.join(__dirname, "styles"), path.join(__dirname, "public")],
