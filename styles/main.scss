@@ -238,7 +238,7 @@ p.weather-location {
   width: 100%;
   max-width: 430px;
 
-  input#email {
+  #email {
     border: none;
     border-bottom: 1.5px solid #fff;
     border-radius: 0;
@@ -253,6 +253,16 @@ p.weather-location {
     @media screen and (max-width: 835px) {
       font-size: 12px;
       padding-bottom: 14px;
+    }
+
+    &:disabled {
+      border: none;
+      border-bottom: 1.5px solid #fff;
+      border-radius: 0;
+      outline: none;
+      background-color: transparent;
+      color: #fff;
+      opacity: 1;
     }
 
     &::placeholder {
