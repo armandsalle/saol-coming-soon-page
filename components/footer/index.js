@@ -3,7 +3,7 @@ import Form from "@/components/form"
 
 const Footer = ({ currentWeather, currentWeatherDescription, currentTemp }) => {
   return (
-    <footer className="footer">
+    <footer className="footer fade-4">
       <div className="weather">
         <div className="weather-wrapper">
           <WeatherIcon currentWeather={currentWeather} />
