@@ -16,8 +16,12 @@ const Footer = ({ currentWeather, currentWeatherDescription, currentTemp }) => {
 
       <div className="contact">
         <div className="social">
-          <p>info@studiosaol.com</p>
-          <p>@studiosaol</p>
+          <a href="mailto:info@studiosaol.com" target="_blank">
+            info@studiosaol.com
+          </a>
+          <a href="https://twitter.com/studiosaol" target="_blank">
+            @studiosaol
+          </a>
         </div>
 
         <Form />
