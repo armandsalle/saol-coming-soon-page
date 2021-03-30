@@ -5,7 +5,6 @@ const Form = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
-    console.log(email)
 
     const response = await fetch("https://hooks.zapier.com/hooks/catch/5795378/oj6ekx2", {
       method: "POST",
@@ -16,8 +15,6 @@ const Form = () => {
       }),
     })
     const data = await response.json()
-
-    console.log(data)
 
     if (data.status === "success") {
       setEmail("")
