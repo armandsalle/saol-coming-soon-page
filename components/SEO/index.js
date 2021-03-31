@@ -19,7 +19,7 @@ const SEO = () => {
         property="og:description"
         content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
       />
-      <meta property="og:image" content="/og.png" />
+      <meta property="og:image" content="https://saol.vercel.app/og.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="http://studiosaol.com/" />
@@ -28,7 +28,7 @@ const SEO = () => {
         property="twitter:description"
         content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
       />
-      <meta property="twitter:image" content="/og.png" />
+      <meta property="twitter:image" content="https://saol.vercel.app/og.png" />
     </Head>
   )
 }
