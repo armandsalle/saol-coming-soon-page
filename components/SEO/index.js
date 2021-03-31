@@ -5,6 +5,7 @@ const SEO = () => {
     <Head>
       <title>Saol</title>
       <link rel="icon" href="/favicon-32x32.png" />
+      <meta name="title" content="Saol" />
       <meta
         name="description"
         content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
