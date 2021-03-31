@@ -29,14 +29,23 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.48), rgba(0, 0, 0, 0.48)), url("../public/bg.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
   z-index: -1;
 
   @media screen and (max-width: 835px) {
     background-position: 26%;
+  }
+
+  &-overlay {
+    background-color: black;
+    opacity: .48;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
   }
 }
 
@@ -115,29 +124,34 @@ p.content {
   display: block;
 }
 
+.fade-bg {
+  opacity: 0;
+  animation: fadeIn ease 1s forwards;
+}
+
 .fade-0 {
   opacity: 0;
-  animation: fadeIn ease 1s forwards .3s;
+  animation: fadeIn ease 1s forwards .6s;
 }
 
 .fade-1 {
   opacity: 0;
-  animation: fadeIn ease 1s forwards 1.3s;
+  animation: fadeIn ease 1s forwards 1.6s;
 }
 
 .fade-2 {
   opacity: 0;
-  animation: fadeInTitle ease 1s forwards 2.3s;
+  animation: fadeInTitle ease 1s forwards 2.6s;
 }
 
 .fade-3 {
   opacity: 0;
-  animation: fadeIn ease 1s forwards 3.3s;
+  animation: fadeIn ease 1s forwards 3.6s;
 }
 
 .fade-4 {
   opacity: 0;
-  animation: fadeIn ease 1s forwards 4.3s;
+  animation: fadeIn ease 1s forwards 4.6s;
 }
 
 @keyframes fadeIn {

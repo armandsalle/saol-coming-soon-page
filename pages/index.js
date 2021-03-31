@@ -8,7 +8,22 @@ export default function Home(props) {
     <>
       <SEO />
 
-      <div className="bg"></div>
+      <div className="bg fade-bg">
+        <img
+          style={{
+            position: "absolute",
+            top: 0,
+            left: 0,
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+          alt="ireland cliff"
+          src="/bg.png"
+          role="presentation"
+        />
+        <div className="bg-overlay"></div>
+      </div>
       <div className="container">
         <Header />
         <Main />
