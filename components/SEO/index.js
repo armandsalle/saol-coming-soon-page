@@ -4,7 +4,7 @@ const SEO = () => {
   return (
     <Head>
       <title>Saol</title>
-      <link rel="icon" href="/favicon.ico" />
+      <link rel="icon" href="/favicon-32x32.png" />
       <meta
         name="description"
         content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
@@ -19,7 +19,7 @@ const SEO = () => {
         property="og:description"
         content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
       />
-      <meta property="og:image" content="" />
+      <meta property="og:image" content="/og.png" />
 
       <meta property="twitter:card" content="summary_large_image" />
       <meta property="twitter:url" content="http://studiosaol.com/" />
@@ -28,7 +28,7 @@ const SEO = () => {
         property="twitter:description"
         content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
       />
-      <meta property="twitter:image" content="" />
+      <meta property="twitter:image" content="/og.png" />
     </Head>
   )
 }

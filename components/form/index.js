@@ -19,7 +19,7 @@ const Form = () => {
     const data = await response.json()
 
     if (data.status === "success") {
-      setEmail("Go raibh maith agat")
+      setEmail("Go raibh mile maith agat a chara")
       setSucces(true)
     } else {
       setEmail("Something went wrong, try again")
