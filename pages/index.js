@@ -19,7 +19,7 @@ export default function Home(props) {
             objectFit: "cover",
           }}
           alt="ireland cliff"
-          src="/bg.png"
+          src="/bg.jpeg"
           role="presentation"
         />
         <div className="bg-overlay"></div>
