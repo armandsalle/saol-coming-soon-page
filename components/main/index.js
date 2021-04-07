@@ -6,8 +6,7 @@ const Main = () => {
         <span className="second-line fade-2">Launching Summer 2021</span>
       </h1>
       <p className="content fade-3">
-        Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of
-        living.
+        Saol is a multidisciplinary studio. We believe in a more sustainable future, by design.
       </p>
     </main>
   )

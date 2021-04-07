@@ -8,7 +8,7 @@ const SEO = () => {
       <meta name="title" content="Saol" />
       <meta
         name="description"
-        content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
+        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers."
       />
       <meta name="author" content="Saol" />
       <meta name="copyright" content="Saol" />
@@ -18,7 +18,7 @@ const SEO = () => {
       <meta property="og:title" content="Saol" />
       <meta
         property="og:description"
-        content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
+        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers."
       />
       <meta property="og:image" content="https://saol.vercel.app/og.png" />
 
@@ -27,7 +27,7 @@ const SEO = () => {
       <meta property="twitter:title" content="Saol" />
       <meta
         property="twitter:description"
-        content="Ag teacht go luath. Launching Summer 2021. Saol is a research and design lab based on the West Coast of Ireland on a mission to create better ways of living."
+        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers."
       />
       <meta property="twitter:image" content="https://saol.vercel.app/og.png" />
     </Head>
