@@ -8,7 +8,7 @@ const SEO = () => {
       <meta name="title" content="Saol" />
       <meta
         name="description"
-        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers."
+        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers, who work with organisations intent on making systems change a reality"
       />
       <meta name="author" content="Saol" />
       <meta name="copyright" content="Saol" />
@@ -18,7 +18,7 @@ const SEO = () => {
       <meta property="og:title" content="Saol" />
       <meta
         property="og:description"
-        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers."
+        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers, who work with organisations intent on making systems change a reality"
       />
       <meta property="og:image" content="https://saol.vercel.app/og.png" />
 
@@ -27,7 +27,7 @@ const SEO = () => {
       <meta property="twitter:title" content="Saol" />
       <meta
         property="twitter:description"
-        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers."
+        content="Saol is a multidisciplinary studio based on the West Coast of Ireland. We are a team of architects, designers, strategists & makers, who work with organisations intent on making systems change a reality"
       />
       <meta property="twitter:image" content="https://saol.vercel.app/og.png" />
     </Head>
